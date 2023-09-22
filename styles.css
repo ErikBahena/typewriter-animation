@@ -1,0 +1,52 @@
+:root {
+  --bg-color: #000000;
+  --animation-steps: 21;
+}
+
+body {
+  background-color: var(--bg-color);
+  font-family: monospace;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: #eee;
+  font-size: 5rem;
+  font-weight: 400;
+  position: relative;
+}
+
+h1::before,
+h1::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+}
+
+h1::before {
+  background: var(--bg-color);
+  animation: typewriter 2.5s steps(var(--animation-steps)) 500ms forwards;
+}
+
+h1::after {
+  margin-left: 0.4rem;
+  width: 0.125rem;
+  background: #6a6a6a;
+  animation: typewriter 2.5s steps(var(--animation-steps)) 500ms forwards,
+    blink 1000ms steps(var(--animation-steps)) infinite;
+}
+
+@keyframes typewriter {
+  to {
+    left: 100%;
+  }
+}
+
+@keyframes blink {
+  to {
+    background: transparent;
+  }
+}
