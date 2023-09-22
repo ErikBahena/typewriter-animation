@@ -1,6 +1,9 @@
 # Typewriter Animation README
 
-This repository contains source code for a simple typewriter animation effect using HTML and CSS. There are two main files in this project:
+This repository contains source code for a simple typewriter animation effect using HTML and CSS. 
+[Link to Typewriter Animation Video](./animation.mov)
+
+There are two main files in this project:
 
 ## index.html
 This HTML file defines the structure of the web page and includes a reference to an external CSS file for styling. The contents of the HTML file are as follows:
@@ -79,6 +82,6 @@ h1::after {
 }
 ```
 
-This code creates a typewriter animation effect on the <h1> element of the HTML page.
+This code creates a typewriter animation effect on the `<h1>` element of the HTML page.
 
 Feel free to explore and modify these files to understand and customize the typewriter animation for your own use. Enjoy experimenting with this simple animation!
