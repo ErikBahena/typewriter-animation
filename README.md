@@ -2,7 +2,7 @@
 
 This repository contains source code for a simple typewriter animation effect using HTML and CSS. 
 
-[Link to Typewriter Animation Video](./animation.mov)
+[Link to Typewriter Animation Video](./animation.gif)
 
 There are two main files in this project:
 
